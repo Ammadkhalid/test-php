@@ -1,0 +1,23 @@
+{
+    "name": "ammadkhalid/test",
+    "description": "This is Simple Hello World Package.",
+    "authors": [
+        {
+            "name": "AmmadKhalid",
+            "email": "ammadkhalid12@gmail.com"
+        }
+    ],
+
+    "require": {
+    	"php": ">= 5.4"
+    },
+
+    "autoload": {
+
+     "psr-0": {
+    	"HelloWorld": "src"
+	  }
+
+    }
+
+}
